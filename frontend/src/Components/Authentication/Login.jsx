@@ -109,7 +109,7 @@ const Login = () => {
         colorScheme="red"
         width="100%"
         onClick={() => {
-          setEmail("t@t.com");
+          setEmail("testuser@t.com");
           setPassword("t");
         }}
       >
