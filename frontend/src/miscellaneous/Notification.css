@@ -1,0 +1,14 @@
+.notify {
+  animation: scaleUpDown 1s ease-in-out; /* Set the animation duration and easing */
+}
+@keyframes scaleUpDown {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+
